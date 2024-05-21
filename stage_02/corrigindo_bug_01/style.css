@@ -1,12 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: end;
+  text-align: center;
   margin: 0;
 }
 
 #hero {
     width: 592px;
-    margin: 72px;
+    margin: 0 auto 72px;
 }
 
 img {
@@ -24,6 +24,7 @@ h1 span {
   font-weight: bold;
 
   margin-bottom: 32px;
+  color: #ff9900;
 }
 
 span, a {
@@ -51,6 +52,6 @@ p, #footer {
 
 #balls {
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
 }
