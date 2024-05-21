@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+#woman h1 {
+    font-family: "Dosis", sans-serif;
+    color: #3F3D56;
+
+}
+#woman h1 span {
+    color: #EE24FF;
+}
+#woman p {
+    color: #828282;
+}
+
+#woman strong {
+    color: #3F3D56;
+}
+
+.line {
+
+}
+
+#footer {
+    color: #3F3D56;
+}
