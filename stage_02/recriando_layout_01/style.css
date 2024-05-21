@@ -1,26 +1,42 @@
 body {
+    font-family: "Open Sans", sans-serif;
     text-align: center;
+    justify-content: center;
+    margin: 0;
 }
-#woman h1 {
-    font-family: "Dosis", sans-serif;
-    color: #3F3D56;
 
+#woman {
+    margin: 64px 199px 63px;
 }
-#woman h1 span {
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    color: #3F3D56;
+}
+
+h1 span {
     color: #EE24FF;
+    font-weight: bold;
 }
-#woman p {
+
+p {
     color: #828282;
 }
 
-#woman strong {
+strong {
     color: #3F3D56;
 }
 
 .line {
-
+    border: 1px solid #ECEFF2;
 }
 
 #footer {
+    font-weight: bold;
     color: #3F3D56;
+}
+
+#footer a + a {
+    margin-left: 42px;
 }
