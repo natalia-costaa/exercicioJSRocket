@@ -1,12 +1,13 @@
 body {
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    justify-content: center;
-    margin: 0;
+
 }
 
 #woman {
-    margin: 64px 199px 63px;
+    margin: 64px auto 100px;
+    width:626px;
+    height: 486px;
 }
 
 h1 {
@@ -24,12 +25,16 @@ p {
     color: #828282;
 }
 
-strong {
+p span {
     color: #3F3D56;
+    font-weight: bold;    
 }
 
 .line {
+    width: 391px;
     border: 1px solid #ECEFF2;
+
+    margin: 16px auto;
 }
 
 #footer {
@@ -39,4 +44,11 @@ strong {
 
 #footer a + a {
     margin-left: 42px;
+}
+
+#wave {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left:0;
 }
