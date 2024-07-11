@@ -37,7 +37,7 @@ header p {
 }
 
 #my-form {
-    margin: 58px auto;
+    margin: 58px auto 0;
     width: 753px;
     background: #FFFFFF;
     border-radius: 8px 8px 0 0;
@@ -99,6 +99,14 @@ fieldset legend {
     border-radius: 8px;
     background: #FAFAFC;
     height: 56px;
+
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
+  
+    color: #4E4958;
+  
 }
 
 .fieldset-wrapper >div:nth-child(1) {
@@ -141,16 +149,17 @@ fieldset legend {
 }
 
 footer {
-    background: #F0F0F4;
+    background: #535971;
 
-    height: 160px;
+    width: 753px;
+    height: 80px;
 
     display: flex;
     flex-direction: column;
 
     padding: 40px 64px;
 
-    margin-bottom: 100px;
+    margin:auto;
 
     border-top: 1px solid #D6D6D6;
     border-radius: 0 0 8px 8px;
@@ -167,7 +176,6 @@ footer .button {
   
   font-size: 16px;
   line-height: 26px;
-
 
   color: #FFFFFF;
 }
