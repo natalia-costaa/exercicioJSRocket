@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding: 0;
+}
+:root {
+    font-size: 4.8rem
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+button {
+    border: none;
+    font-size: 0.8rem;
+
+    cursor: pointer;
+}
+
+#app {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 500px 500px;
+}
+
+.timer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#clock-buttons button {
+    background-color: transparent;
+}
+
+#clock-buttons button:hover {
+    color: #02799D;
+}
+
+#sounds {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-items: center;
+
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+#sounds button {
+    background-color: #E1E1E6;
+    border-radius: 24px;
+
+    width: 138px;
+    height: 152px;
+    padding:5px;
+}
