@@ -12,31 +12,32 @@
     
     <title>Focus Timer v.2</title>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script type="module" src="src/main.js" defer></script>
     <link rel="stylesheet" href="./style.css">
+    <script type="module" src="src/main.js" defer></script>
 </head>
 <body>
     <main id="app">
         <div class="timer">
             <div id="clock">
-                <span id="minutes">25</span>
+                <span id="minutes">00</span>
                 <span>:</span>
                 <span id="seconds">00</span>   
             </div>
             
-            <div id="clock-buttons" class="toogle-mode">
-                <button class="ph ph-play-circle"></button>
-                <button class="ph ph-stop-circle"></button>
-                <button class="ph ph-plus-circle"></button>
-                <button class="ph ph-minus-circle"></button>
+            <div id="controls" class="toogle-mode">
+                <button data-action="toogleRunning" class="ph ph-play-circle"></button>
+                <!--button data-action="toogleRunning" class="ph ph-pause-circle"></button-->
+                <button data-action="stop" class="ph ph-stop-circle"></button>
+                <button data-action="increase" class="ph ph-plus-circle"></button>
+                <button data-action="decrease" class="ph ph-minus-circle"></button>
             </div>
         </div>
 
         <div id="sounds" class="toogle-mode">
-            <button class="ph ph-tree"></button>
-            <button class="ph ph-cloud-snow"></button>
-            <button class="ph ph-coffee"></button>
-            <button class="ph ph-fire"></button>
+            <button data-action="forest" class="ph ph-tree"></button>
+            <button data-action="rain" class="ph ph-cloud-snow"></button>
+            <button data-action="coffeeshop" class="ph ph-coffee"></button>
+            <button data-action="fireplace" class="ph ph-fire"></button>
         </div>
     </main>
 </body>

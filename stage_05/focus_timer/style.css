@@ -38,11 +38,11 @@ button {
     font-size: 1.2rem;
 }
 
-#clock-buttons button {
+#controls button {
     background-color: transparent;
 }
 
-#clock-buttons button:hover {
+#controls button:hover {
     color: #02799D;
 }
 
